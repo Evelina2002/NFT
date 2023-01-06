@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<body background="фон.jpg">
+<ul type="none">
+      <li><a href="NFT.html"><b><big>NFT</big></b></a></li>  
+      <li><a href="Типы NFT.html">Типы NFT</a></li>    
+      <li><a href="Существующие NFT.html">Существующие NFT</a></li>
+    </ul>
+<font
+   face = "Arial"
+   size = "4" 
+color="silver">
+
+<details open="">
+<summary> <b>График:</b> </summary>
+<form>
+        <table>
+          <tbody><tr>
+            <th>Значениe по оси OX</th>
+            <th>Результат</th>
+          </tr>
+          <tr>
+            <td>
+              <input type="radio" name="ox" value="0">Год<br>
+              <input type="radio" name="ox" value="1">Автор<br>
+            </td>
+            <td>
+              <input type="checkbox" name="oy" value="0">Максимальная цена<br>
+              <input type="checkbox" name="oy" value="1">Минимальная цена<br>
+              <input type="checkbox" name="oy" value="1">Средняя цена<br>
+            </td>
+          </tr>
+        </tbody></table>
+		<input type="button" value="Построить">
+		<p>"ГРАФИК"</p>
+</form>
+</details>
+<br>
+<details open="">
+    <summary><b> Фильтр</b></summary>
+    <form>
+        <p>
+           <label for="structure">Название:</label>
+		   <input type="text" name="structure">
+        </p>
+        <p>
+		    <label for="category">Автор:</label>
+            <input type="text" name="category">
+        </p>
+        <p>
+		   <label for="country">Год:</label>
+          <input type="text" name="country">
+        </p>
+ 		 <p>
+		  <label for="yFrom">Цена: </label>
+           от <input type="text" name="yFrom"> до <input type="text" name="yFo">
+        </p>
+        <input type="button" value="Найти">		
+	</form>	
+</details>
+<br>
+<details open="">
+    <summary><b>Сортировка</b></summary>
+    <form>
+	  <p>
+          Первый уровень:
+          <select name="sortFirst">
+            <option value="0">Нет</option>
+            <option value="1">Название</option>
+            <option value="2">Год</option>
+            <option value="3">Цена</option>
+          </select>
+          по убыванию? <input type="checkbox" name="descFirst">
+        </p>  
+        <p>
+          Второй уровень:
+		  <select name="sortSecond">
+           <option value="0">Нет</option>
+            <option value="1">Название</option>
+            <option value="2">Год</option>
+            <option value="3">Цена</option>
+          </select>
+          по убыванию? <input type="checkbox" name="descSecond">
+        </p>
+        <p>
+          Третий уровень:
+          <select name="sortThird">
+            <option value="0">Нет</option>
+            <option value="1">Название</option>
+            <option value="2">Год</option>
+            <option value="3">Цена</option>
+          </select>
+          по убыванию? <input type="checkbox" name="descThird">
+        </p>
+      <input type="button" value="Сортировать">		
+	</form>	
+</details>
+
+
+<br><br>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tbody><tr><th>№</th><th>Название</th><th>Автор</th><th>Год</th><th>Стоимость(млн $) </th></tr>
+	<tr><td>1</td><td>Everydays: The First 5000 Days</td><td>Beeple</td><td>2021</td><td>69</td></tr>
+	<tr><td>2</td><td>Clock</td><td>Pak</td><td>2022</td><td>52.7</td></tr>
+	<tr><td>3</td><td>HUMAN ONE</td><td>Beeple</td><td>2021</td><td>28.9</td></tr>
+	<tr><td>4</td><td>CryptoPunk #5822</td><td>Larva Labs </td><td>2022</td><td>23.7</td></tr>
+	<tr><td>5</td><td>CryptoPunk #7523</td><td>Larva Labs</td><td>2022</td><td>11.75</td></tr>
+	<tr><td>6</td><td>TPunk #3442</td><td>Tron</td><td>2021</td><td>10.5</td></tr>
+	<tr><td>7</td><td>CryptoPunk #4156</td><td>Larva Labs</td><td>2021</td><td>10.26</td></tr>
+	<tr><td>8</td><td>CryptoPunk #5577</td><td>Larva Labs</td><td>2022</td><td>7.7</td></tr>
+	<tr><td>9</td><td>CryptoPunk #3100</td><td>Larva Labs</td><td>2021</td><td>7.58</td></tr>
+	<tr><td>10</td><td>CryptoPunk #7804</td><td>Larva Labs</td><td>2021</td><td>7.57</td></tr>
+	<tr><td>11</td><td>Bored Ape Yacht Club #5809 </td><td>Yuga Labs</td><td>2021</td><td>24.4</td></tr>
+        <tr><td>12</td><td>Bored Ape Yacht Club #7940 </td><td>Yuga Labs</td><td>2021</td><td>13</td></tr>
+	<tr><td>13</td><td>Bored Ape Yacht Club #7834 </td><td>Yuga Labs</td><td>2022</td><td>17.2</td></tr>
+        <tr><td>14</td><td>Bored Ape Yacht Club #3432 </td><td>Yuga Labs</td><td>2021</td><td>14.7</td></tr>
+        <tr><td>15</td><td>Bored Ape Yacht Club #8173 </td><td>Yuga Labs</td><td>2022</td><td>20.1</td></tr>
+        <tr><td>16</td><td>Bored Ape Yacht Club #6473 </td><td>Yuga Labs</td><td>2022</td><td>4.7</td></tr>
+        <tr><td>17</td><td>Bored Ape Yacht Club #5615 </td><td>Yuga Labs</td><td>2021</td><td>2.7</td></tr>
+        <tr><td>18</td><td>Bored Ape Yacht Club #3514 </td><td>Yuga Labs</td><td>2022</td><td>9.3</td></tr>
+        <tr><td>19</td><td>Bored Ape Yacht Club #4583 </td><td>Yuga Labs</td><td>2022</td><td>11.2</td></tr>
+        <tr><td>20</td><td>Bored Ape Yacht Club #9094 </td><td>Yuga Labs</td><td>2021</td><td>17</td></tr>
+        <tr><td>21</td><td>Bored Ape Yacht Club #5211 </td><td>Yuga Labs</td><td>2022</td><td>3</td></tr>
+        <tr><td>22</td><td>Bored Ape Yacht Club #3326 </td><td>Yuga Labs</td><td>2022</td><td>16</td></tr>
+        <tr><td>23</td><td>Bored Ape Yacht Club #9079 </td><td>Yuga Labs</td><td>2022</td><td>6</td></tr>
+        <tr><td>24</td><td>Bored Ape Yacht Club #7939 </td><td>Yuga Labs</td><td>2021</td><td>11.9</td></tr>
+        <tr><td>25</td><td>Bored Ape Yacht Club #8182 </td><td>Yuga Labs</td><td>2022</td><td>4.1</td></tr>
+        <tr><td>26</td><td>Bored Ape Yacht Club #6471 </td><td>Yuga Labs</td><td>2021</td><td>8.2</td></tr>
+        <tr><td>27</td><td>Bored Ape Yacht Club #7820 </td><td>Yuga Labs</td><td>2021</td><td>10.1</td></tr>
+        <tr><td>28</td><td>Bored Ape Yacht Club #5810 </td><td>Yuga Labs</td><td>2022</td><td>9.7</td></tr>
+        <tr><td>29</td><td>Bored Ape Yacht Club #8817 </td><td>Yuga Labs</td><td>2022</td><td>4.4</td></tr>
+	<tr><td>30</td><td>NFT с исходным кодом интернета</td><td>Тим Бернерс-Ли</td><td>2021</td><td>5.4</td></tr>
+        <tr><td>31</td><td>Bored Ape Yacht Club #5810 </td><td>Yuga Labs</td><td>2022</td><td>9.7</td></tr>
+        <tr><td>32</td><td>Mad Dog Jones </td><td>Mad Dog Jones</td><td>2021</td><td>4.1</td></tr>	
+        <tr><td>33</td><td>Sotheby's на платформе Nifty Gateway</td><td>Pak</td><td>2022</td><td>1.3</td></tr>	
+        <tr><td>34</td><td>Банка супа Campbell's</td><td>Энди Уорхол</td><td>2021</td><td>1.1</td></tr>
+        <tr><td>35</td><td>HODL ME</td><td>Tom Yoo</td><td>2020</td><td>13</td></tr>
+        <tr><td>36</td><td>Blue Dream</td><td>BALEX</td><td>2021</td><td>1.1</td></tr>
+        <tr><td>37</td><td>009 BIONIC</td><td>BALEX SNEAKERS</td><td>2021</td><td>2</td></tr>
+        <tr><td>38</td><td>002 BIONIC</td><td>BALEX SNEAKERS</td><td>2020</td><td>1</td></tr>
+        <tr><td>39</td><td>004 BIONIC</td><td>BALEX SNEAKERS</td><td>2021</td><td>7.6</td></tr>
+        <tr><td>40</td><td>OpenSea</td><td>BALEX</td><td>2021</td><td>8</td></tr>
+        <tr><td>41</td><td>STEPN42</td><td>FEWOCiOUS</td><td>2021</td><td>1.3</td></tr>
+        <tr><td>42</td><td>STEPN17</td><td>FEWOCiOUS</td><td>2020</td><td>1.8</td></tr>
+        <tr><td>43</td><td>STEPN78</td><td>FEWOCiOUS</td><td>2020</td><td>1.9</td></tr>
+        <tr><td>44</td><td>HypeSneakrs #158</td><td>CryptoKitties</td><td>2022</td><td>7</td></tr>
+        <tr><td>45</td><td>HypeSneakrs #122</td><td>CryptoKitties</td><td>2022</td><td>3.2</td></tr>
+        <tr><td>46</td><td>Solana Sole Sliders</td><td>CryptoPunks</td><td>2020</td><td>2.4</td></tr>
+        <tr><td>47</td><td>Candlelight Peach Fade</td><td>CryptoPunks/td><td>2020</td><td>6.4</td></tr>
+        <tr><td>48</td><td>HypeSneakrs #137</td><td>CryptoKitties</td><td>2021</td><td>1.2</td></tr>
+        <tr><td>49</td><td>01 Sandbox</td><td>CryptoVoxels</td><td>2021</td><td>6</td></tr>
+        <tr><td>50</td><td>02 Sandbox</td><td>CryptoVoxels</td><td>2021</td><td>3</td></tr>
+
+</tbody></table>
+
+
+</body>
+</html>
